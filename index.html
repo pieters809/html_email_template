@@ -34,18 +34,37 @@
         font-family: sans-serif;
         color: black;
       }
-      .l-r-columns{
+      .l-r-columns {
         text-align: center;
         font-size: 0;
       }
 
-      .l-r-columns .column{
+      .l-r-columns .column {
         width: 100%;
         max-width: 300px;
         display: inline-block;
         vertical-align: top;
         text-align: center;
-
+      }
+      .three-columns{
+        text-align: center;
+        font-size: 0;
+        padding: 15px 0 25px;
+      }
+      .three-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+      .three-columns .padding{
+        padding: 15px;
+      }
+      .three-columns .content{
+        font-size: 15px;
+        height: 20px;
+        padding: 0 5px;
       }
     </style>
   </head>
@@ -65,7 +84,7 @@
                 <td class="l-r-columns">
                   <table class="column">
                     <tr>
-                      <td style="padding: 0 62px 10px; ">
+                      <td style="padding: 0 62px 10px">
                         <a href="https://jpieters.netlify.app"
                           ><img
                             src="./assets/template.png"
@@ -78,12 +97,37 @@
                   </table>
                   <table class="column">
                     <tr>
-                      <td style="padding: 10px 72px ;">
-                        <a href="#"><img src="./assets/black-facebook.png" alt="" width="30"/></a>
-                        <a href="#"><img src="./assets/black-instagram.png" alt="" width="30"/></a>
-                        <a href="#"><img src="./assets/black-linkedin.png" alt="" width="30"/></a>
-                        <a href="#"><img src="./assets/black-twitter.png" alt="" width="30"/></a>
-                        <a href="#"><img src="./assets/black-youtube.png" alt="" width="30"/></a>
+                      <td style="padding: 10px 72px">
+                        <a href="#"
+                          ><img
+                            src="./assets/black-facebook.png"
+                            alt=""
+                            width="30"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            src="./assets/black-instagram.png"
+                            alt=""
+                            width="30"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            src="./assets/black-linkedin.png"
+                            alt=""
+                            width="30"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            src="./assets/black-twitter.png"
+                            alt=""
+                            width="30"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            src="./assets/black-youtube.png"
+                            alt=""
+                            width="30"
+                        /></a>
                       </td>
                     </tr>
                   </table>
@@ -95,12 +139,114 @@
 
         <!-- Banner Image -->
         <tr>
-            <td>
-                <a href="#"><img src="" alt=""></a>
-            </td>
+          <td>
+            <a href="#"
+              ><img
+                src="./assets/templatebanner.png"
+                alt=""
+                width="600"
+                style="max-width: 100%"
+            /></a>
+          </td>
         </tr>
 
         <!-- 3 Column Area -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+                  <!-- Column 1 -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="./assets/email.png"
+                                  alt=""
+                                  width="130"
+                                  style="max-width: 130px"
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 18px">
+                                Ecommerce
+                              </p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- Column 2 -->
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="./assets/email.png"
+                                  alt=""
+                                  width="130"
+                                  style="max-width: 130px"
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 18px">
+                                Web Development
+                              </p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- Column 3 -->
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="./assets/email.png"
+                                  alt=""
+                                  width="130"
+                                  style="max-width: 130px"
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 18px">
+                                HTML Email
+                              </p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
         <!-- TWO Column Area -->
 
