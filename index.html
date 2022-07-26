@@ -46,7 +46,7 @@
         vertical-align: top;
         text-align: center;
       }
-      .three-columns{
+      .three-columns {
         text-align: center;
         font-size: 0;
         padding: 15px 0 25px;
@@ -58,13 +58,32 @@
         vertical-align: top;
         text-align: center;
       }
-      .three-columns .padding{
+      .three-columns .padding {
         padding: 15px;
       }
-      .three-columns .content{
+      .three-columns .content {
         font-size: 15px;
         height: 20px;
         padding: 0 5px;
+      }
+      .l-r-columns.learnMore{
+        padding: 15px 0;
+      }
+      .l-r-columns .padding{
+        padding: 20px;
+      }
+      .l-r-columns .content{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+      }
+      .button{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        padding: 12px 20px;
+        font-weight: bold;
+        border-radius: 5px;
       }
     </style>
   </head>
@@ -177,7 +196,10 @@
                               <p style="font-weight: bold; font-size: 18px">
                                 Ecommerce
                               </p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                              </p>
                             </td>
                           </tr>
                         </table>
@@ -206,7 +228,10 @@
                               <p style="font-weight: bold; font-size: 18px">
                                 Web Development
                               </p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                              </p>
                             </td>
                           </tr>
                         </table>
@@ -235,7 +260,10 @@
                               <p style="font-weight: bold; font-size: 18px">
                                 HTML Email
                               </p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                              </p>
                             </td>
                           </tr>
                         </table>
@@ -248,7 +276,51 @@
           </td>
         </tr>
 
-        <!-- TWO Column Area -->
+        <!-- 2 Column Area -->
+        <tr>
+          <td style="background-color: black; color: white;">
+            <table width="100%">
+              <tr>
+                <td class="l-r-columns learnMore">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="./assets/working.jpeg"
+                                  alt=""
+                                  width="260"
+                                  style="max-width: 260px"
+                              /></a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold;font-size:18px;">Lorem ipsum </p>
+                              <p style="padding-bottom: 16px;"> Exercitationem excepturi quasi officiis consequatur debitis corporis voluptates atque pariatur perferendis similique culpa incidunt, ex, velit delectus</p>
+                              <a href="#" class="button">Learn More</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
         <!-- Title, Text and Button -->
 
